@@ -16,7 +16,7 @@ const SignUp = () => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.user.user);
     const navigate = useNavigate();
-
+    console.log("rendrered")
     useEffect(()=>{
        if(user?.token){
         

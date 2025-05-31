@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename="/accio_react_signUp_profile">
        <Header />
       <Routes>
         {/* Default route */}
